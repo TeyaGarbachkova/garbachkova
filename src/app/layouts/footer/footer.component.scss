@@ -1,0 +1,12 @@
+.footer {
+  border-top: 5px solid #be1e2d;
+}
+
+.footer-list {
+  .footer-list__link {
+    color: #3d3838;
+    &:hover {
+      color: #be1e2d;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 5px solid #be1e2d;
+}
+.navbar {
+  .nav-link {
+    color: #3d3838;
+    &:hover {
+      color: #be1e2d;
+    }
+  }
+  img {
+    height: 90px;
+  }
+}

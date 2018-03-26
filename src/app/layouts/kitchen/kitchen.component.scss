@@ -1,0 +1,38 @@
+.back-link {
+  color:  #3d3838;
+  text-decoration: none;
+  &:before {
+    content: "\2190";
+    display: inline-block;
+    color:  #3d3838;
+    padding-right: 5px;
+    font-size: 30px;
+    vertical-align: sub;
+  }
+  &:hover, &:hover:before {
+    color: #be1e2d;
+  }
+
+  &:hover:before {
+    @extend .bounceright;
+  }
+}
+.bounceright {
+  -webkit-animation: bounceright 2s infinite;
+  animation: bounceright 2s infinite;
+}
+
+@keyframes bounceright {
+  0%, 20%, 50%, 80%, 100% {
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -ms-transform: translateX(8px);
+    transform: translateX(8px)
+  }
+  60% {
+    -ms-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+}

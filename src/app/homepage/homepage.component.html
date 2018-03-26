@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="main-carousel">
+        <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <img class="img-fluid" src="{{ slide.img }}" alt="{{ slide.alt }}" width="100%">
+            </div>
+        </ngx-slick>
+    </div>
+</div>
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-8">
+                <h1>Bulgarian cuisine</h1>
+                <p>Bulgarian cuisine (Bulgarian: българска кухня, translit. bǎlgarska kuhnja) is a representative of the cuisine of Eastern Europe. It shares characteristics with other Balkans cuisines. Bulgarian cooking traditions are diverse because of geographical factors such as climatic conditions suitable for a variety of vegetables, herbs and fruit. Aside from the vast variety of local Bulgarian dishes, Bulgarian cuisine shares a number of dishes with the Russian, Turkish, and Greek cuisine.</p>
+                <p>Bulgarian food often incorporates salads as appetizers and is also noted for the prominence of dairy products, wines and other alcoholic drinks such as rakia. The cuisine also features a variety of soups, such as the cold soup tarator, and pastries, such as the filo dough based banitsa, pita and the various types of börek.</p>
+                <p>Main courses are very typically water-based stews, either vegetarian or with lamb, goat meat, veal, chicken or pork. Deep-frying is not common, but grilling - especially different kinds of sausages - is very prominent. Pork is common, often mixed with veal or lamb, although fish and chicken are also widely used. While most cattle are bred for milk production rather than meat, veal is popular for grilling meats appetizers (meze) and in some main courses. As a substantial exporter of lamb, Bulgaria's own consumption is notable, especially in the spring.</p>
+                <p>Similarly to other Balkan cultures the per capita consumption of yogurt (Bulgarian: кисело мляко, kiselo mlyako, lit. "sour milk") among Bulgarians is traditionally higher than the rest of Europe. The country is notable as the historical namesake for Lactobacillus bulgaricus, a microorganism chiefly responsible for the local variety of the dairy product.</p>
+                <p>Bulgarian cuisine shares a number of dishes with the Middle Eastern Cuisine as well as a limited number with the Indian, particularly Gujarat cuisine. The culinary exchange with the East started as early as the 7th century, when traders started bringing herbs and spices to the First Bulgarian Empire from India and Persia via the Roman and later Byzantine empires. This is evident from the wide popularity of dishes like moussaka, gyuvetch, kyufte and baklava, which are common in Middle Eastern cuisine today. White brine cheese called "sirene" (сирене), similar to feta, is also a popular ingredient used in salads and a variety of pastries.</p>
+                <p>Holidays are often observed in conjunction with certain meals. On Christmas Eve, for instance, tradition requires vegetarian stuffed peppers and cabbage leaf sarmi, New Year's Eve usually involves cabbage dishes, Nikulden (Day of St. Nicholas, December 6) fish (usually carp), while Gergyovden (Day of St. George, May 6) is typically celebrated with roast lamb.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-12">
+                        <figure>
+                            <img src="assets/image/bulgarian-kitchen/tarator.jpg" alt="Tarator" width = "100%" height="145px">
+                            <figcaption>Tarator is a type of Bulgarian soup</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-12">
+                        <figure>
+                            <img src="assets/image/bulgarian-kitchen/kiselo-mlyako.jpg" alt="Kiselo mlyako" width = "100%" height="145px">
+                            <figcaption>Kiselo Mlyako (Yogurt) is a type of Bulgarian dessert</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-12">
+                        <figure>
+                            <img src="assets/image/bulgarian-kitchen/shopska.jpg" alt="Shopska salata" width = "100%" height="145px">
+                            <figcaption>Shopska Salad is a type of Bulgarian salad</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
